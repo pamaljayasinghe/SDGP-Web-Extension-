@@ -1,4 +1,4 @@
-// Listen for installation event
+// Listen for installation event.
 chrome.runtime.onInstalled.addListener(function () {
   console.log("3D Try-On Extension installed successfully");
 });

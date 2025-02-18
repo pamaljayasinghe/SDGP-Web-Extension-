@@ -12,7 +12,7 @@
     {
       "matches": ["*://*.partnersite1.com/*", "*://*.partnersite2.com/*"],
       "js": ["content.js"],
-      "css": ["content.css"]
+      "css": ["styles.css"]
     }
   ],
   "action": {
