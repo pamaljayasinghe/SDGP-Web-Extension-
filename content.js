@@ -61,14 +61,14 @@ function injectTry3DButton() {
   // Create the Try 3D button
   const try3DButton = document.createElement("button");
   try3DButton.className = "try-3d-button";
-  try3DButton.innerHTML = "Try 3D";
+  try3DButton.innerHTML = "Try 3D With Fit-On";
   try3DButton.style.cssText =
-    "background: #28a745; color: white; padding: 10px 20px; margin-left: 10px; border: none; cursor: pointer; font-size: 14px; display: block; margin-top: 10px;";
+    "background:rgb(16, 160, 50); color: white; padding: 20px 40px; margin-left: 10px; border: none; cursor: pointer; font-size: 14px; display: block; margin-top: 10px;";
 
   try3DButton.addEventListener("click", function (event) {
     event.preventDefault();
     const productDetails = extractProductDetails();
-    const redirectURL = `https://your-site.com/try3d?product=${productDetails.product}&image=${productDetails.image}&desc=${productDetails.desc}&sizes=${productDetails.sizes}`;
+    const redirectURL = `https://myfiton.com/try3d?product=${productDetails.product}&image=${productDetails.image}&desc=${productDetails.desc}&sizes=${productDetails.sizes}`;
     window.location.href = redirectURL;
   });
 
