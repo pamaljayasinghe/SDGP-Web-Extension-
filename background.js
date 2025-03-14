@@ -10,7 +10,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       "Redirecting to try-on page with product:",
       request.productDetails
     );
-    // You can perform additional actions here if needed
+    // You can perform additional actions here if needed.
     sendResponse({ status: "success" });
   }
   return true; // Required for asynchronous response
